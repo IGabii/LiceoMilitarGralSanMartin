@@ -824,10 +824,10 @@ iframe{
 
 /* AUTORIDADES-------------------------------------------------------------------------------------------------------- */
 
-.autoridades-container, .mision-container{
+.autoridades-container, .mision-container, .historia-container{
   background:linear-gradient(to bottom, rgb(0, 0, 0,0.4), rgb(0, 0, 0,0.4)),url(../galery/fotosLiceo/liceo7.webp);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -838,7 +838,7 @@ iframe{
   margin:60px
 }
 
-.autoridades-container h2, .mision-container h2{
+.autoridades-container h2, .mision-container h2, .historia-container h2{
   margin-top: 90px;
   font-size: 70px;
   text-shadow: 2px 2px 20px #000;
@@ -869,4 +869,74 @@ iframe{
   width: 100%;
   object-fit: cover;
   mask-image: linear-gradient(black  80%,transparent);
+}
+
+/* MISION----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.mision{
+  padding: 50px;
+  text-align: center;
+}
+
+.mision-items-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  gap:40px;
+}
+
+.mision-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--black-color-light);
+}
+
+.mision-items i{
+  font-size: 100px;
+}
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.card-mision {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
+  min-height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #040825;
+  border: 2px solid #313131;
+  box-shadow: 0px 0px 10px #2b2939;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content-mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:start;
+  gap: 20px;
+  color: #e8e8e8;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content-mision .heading-mision {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content-mision .para {
+  line-height: 1.5;
+}
+
+.card-mision:hover {
+  box-shadow: 0 0 50px rgba(9, 171, 241, 0.8);
+  border-color: #0974f1;
 }
