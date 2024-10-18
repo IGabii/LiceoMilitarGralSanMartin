@@ -42,7 +42,7 @@
 
 body{
   color:#fff;
-  background-color: #021735;
+  background: linear-gradient(to right ,rgba(14, 21, 26, 1),#021735,rgba(14, 21, 26, 1));
   font-family: var(--body-font);
   font-weight: var(--font-semi-bold);
   font-size: var(--normal-font-size);
@@ -563,7 +563,8 @@ a {
 .news-container{
     display: flex;
     align-items: center;
-    padding:30px 100px;
+    padding:100px;
+    background: linear-gradient(to right ,rgba(14, 21, 26, 1),#021735,rgba(14, 21, 26, 1))
 }
 
 .newsText-container{
@@ -635,7 +636,7 @@ a {
 
 
 .galery-index-container{
-    margin:100px
+    margin:100px 100px 200px;
 }
 
 .galery-index-box{
@@ -834,6 +835,12 @@ iframe{
   align-items: center;
 }
 
+.mision-container{
+  background:linear-gradient(to bottom, rgb(0, 0, 0,0.4), rgb(0, 0, 0,0.4)),url(../galery/fotosLiceo/liceo8.webp);
+  background-size: cover;
+  background-position: center center;
+}
+
 .autoridades-items-container{
   margin:60px
 }
@@ -939,4 +946,25 @@ iframe{
 .card-mision:hover {
   box-shadow: 0 0 50px rgba(9, 171, 241, 0.8);
   border-color: #0974f1;
+}
+
+.historia-timeline-container{
+  margin:50px;
+}
+
+
+/* HISORIA----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.historia-timeline-container{
+  margin:100px;
+}
+
+.timeline-item{
+  display: flex;
+  padding: 50px;
+}
+
+.timeline-year{
+  font-size: 30px;
+  padding: 0 30px ;
 }
