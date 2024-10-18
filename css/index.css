@@ -825,7 +825,7 @@ iframe{
 
 /* AUTORIDADES-------------------------------------------------------------------------------------------------------- */
 
-.autoridades-container, .mision-container, .historia-container{
+.autoridades-container, .mision-container, .historia-container, .cancion-container{
   background:linear-gradient(to bottom, rgb(0, 0, 0,0.4), rgb(0, 0, 0,0.4)),url(../galery/fotosLiceo/liceo7.webp);
   background-size: cover;
   background-position: center center;
@@ -845,7 +845,7 @@ iframe{
   margin:60px
 }
 
-.autoridades-container h2, .mision-container h2, .historia-container h2{
+.autoridades-container h2, .mision-container h2, .historia-container h2, .cancion-container h2{
   margin-top: 90px;
   font-size: 70px;
   text-shadow: 2px 2px 20px #000;
@@ -962,9 +962,45 @@ iframe{
 .timeline-item{
   display: flex;
   padding: 50px;
+  align-items: center;
 }
 
 .timeline-year{
   font-size: 30px;
   padding: 0 30px ;
+}
+
+.historia-container2, .historia-container3{
+  display: flex;
+  margin:100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.historia-container2 h2, .historia-container2 p{
+  padding: 40px 100px;
+}
+
+.historia-container3 h2, .historia-container3 p{
+  padding: 10px 100px;
+}
+
+
+/* CANCION DEL LICEO--------------------------------------------------------------------------------------------------------------------------------------- */
+
+.cancion-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.song-letter-container section{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.song-letter-container p{
+  padding: 5px;
 }
