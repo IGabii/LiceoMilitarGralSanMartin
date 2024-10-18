@@ -986,6 +986,25 @@ iframe{
   padding: 10px 100px;
 }
 
+.ideario-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  margin: 90px 0;
+}
+
+.ideario-container h2{
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.ideario-container p{
+  padding: 20px 130px;
+  
+}
+
 
 /* CANCION DEL LICEO--------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -1003,4 +1022,43 @@ iframe{
 
 .song-letter-container p{
   padding: 5px;
+}
+
+/* DIRECTORES=========================================================================================================================================================== */
+.body-directores-container,.body-abanderados-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+table{
+  background-color: var(--colorTema);
+  padding: 40px 100px;
+  color:#d4cdcd;
+}
+
+th{
+  color:#f8d90f;
+  text-align: start;
+}
+
+td{
+  padding: 10px  30px 10px ;
+  margin:0 30px;
+  text-align: start;
+  border-bottom: solid 1px #fff;
+}
+
+tr{
+  border-bottom: solid 1px #fff;
+}
+
+.padding-td{
+  padding-right: 200px;
+}
+
+.title-directores-item, .title-abanderados-item{
+  font-size: 26px;
 }
