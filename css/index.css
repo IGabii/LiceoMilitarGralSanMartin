@@ -825,7 +825,7 @@ iframe{
 
 /* AUTORIDADES-------------------------------------------------------------------------------------------------------- */
 
-.autoridades-container, .mision-container, .historia-container, .cancion-container, .cadetes-container{
+.autoridades-container, .mision-container, .historia-container, .cancion-container, .cadetes-container,.listadoDocente-container{
   background:linear-gradient(to bottom, rgb(0, 0, 0,0.4), rgb(0, 0, 0,0.4)),url(../galery/fotosLiceo/liceo7.webp);
   background-size: cover;
   background-position: center center;
@@ -845,7 +845,7 @@ iframe{
   margin:60px
 }
 
-.autoridades-container h2, .mision-container h2, .historia-container h2, .cancion-container h2, .cadetes-container h2{
+.autoridades-container h2, .mision-container h2, .historia-container h2, .cancion-container h2, .cadetes-container h2, .listadoDocente-container h2{
   margin-top: 90px;
   font-size: 70px;
   text-shadow: 2px 2px 20px #000;
@@ -1184,4 +1184,60 @@ span:nth-child(2)
 span:nth-child(2) {
  transition: none;
  transition-delay: none;
+}
+
+/* LISTADO DOCENTE ====================================================================================================================== */
+
+.actosPublicos-container{
+  margin:200px;
+}
+
+.actosPublicos-section{
+  border-bottom: solid 1px #fff;
+  padding-bottom: 20px;
+  margin:160px 0
+}
+
+
+.actosPublicos-title{
+  font-size: 30px;
+  padding: 10px 0 10px;
+  color:#f2ff00
+}
+
+.actosPublicos-date{
+  display: flex;
+}
+
+.actosPublicos-date h4{
+  padding-left: 10px;
+}
+
+.actosPublicos-body{
+  padding: 25px 0 40px 0;
+  font-size: 15px;
+}
+
+.actosPublicos-download{
+  display: flex;
+}
+
+.actosPublicos-download a{
+  background-color: #010f73;
+  display: flex;
+  padding: 20px 30px;
+  border-radius: 30px;
+  align-items: center;
+  text-decoration: none;
+  color:#fff;
+  transition-duration: .2s;
+}
+
+.actosPublicos-download h3{
+  padding-right: 10px;
+}
+
+.actosPublicos-download a:hover{
+  background-color: #0318b7;
+  box-shadow: 1px 1px 30px #0318b7;
 }
