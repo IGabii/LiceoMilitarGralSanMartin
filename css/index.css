@@ -95,7 +95,7 @@ a {
 }
 
 .nav__logo img{
-  width: 29%;
+  width: 20%;
 }
 
 .nav__toggle {
@@ -1033,6 +1033,8 @@ iframe{
   font-size: 15px;
 }
 
+
+/* ABANDERADOS========================================================================================================================================================================================== */
 table{
   background-color: var(--colorTema);
   padding: 40px 100px;
@@ -1045,7 +1047,7 @@ th{
 }
 
 td{
-  padding: 10px  30px 10px ;
+  padding: 20px  0px 20px ;
   margin:0 30px;
   text-align: start;
   border-bottom: solid 1px #fff;
@@ -1055,8 +1057,8 @@ tr{
   border-bottom: solid 1px #fff;
 }
 
-.padding-td{
-  padding-right: 200px;
+td .padding-td{
+  padding: 0 200px 0 0;
 }
 
 .title-directores-item, .title-abanderados-item{
@@ -1189,55 +1191,36 @@ span:nth-child(2) {
 /* LISTADO DOCENTE ====================================================================================================================== */
 
 .actosPublicos-container{
-  margin:200px;
+  margin:100px;
 }
 
-.actosPublicos-section{
-  border-bottom: solid 1px #fff;
-  padding-bottom: 20px;
-  margin:160px 0
-}
-
-
-.actosPublicos-title{
-  font-size: 30px;
-  padding: 10px 0 10px;
-  color:#f2ff00
-}
-
-.actosPublicos-date{
+.actos-table{
   display: flex;
-}
-
-.actosPublicos-date h4{
-  padding-left: 10px;
-}
-
-.actosPublicos-body{
-  padding: 25px 0 40px 0;
-  font-size: 15px;
-}
-
-.actosPublicos-download{
-  display: flex;
-}
-
-.actosPublicos-download a{
-  background-color: #010f73;
-  display: flex;
-  padding: 20px 30px;
-  border-radius: 30px;
+  justify-content: center;
   align-items: center;
-  text-decoration: none;
+}
+
+.actos-table table{
+  padding: 0;
+  margin:0;
+}
+
+.title-comunicado{
+  padding-right: 600px;
+}
+
+a.downloadListadoDocente{
+  background-color: #001eff;
   color:#fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #001eff;
   transition-duration: .2s;
 }
 
-.actosPublicos-download h3{
-  padding-right: 10px;
+a.downloadListadoDocente:hover{
+  background-color: #071ec9;
+  box-shadow: 0 0 20px #071ec9;
+
 }
 
-.actosPublicos-download a:hover{
-  background-color: #0318b7;
-  box-shadow: 1px 1px 30px #0318b7;
-}
